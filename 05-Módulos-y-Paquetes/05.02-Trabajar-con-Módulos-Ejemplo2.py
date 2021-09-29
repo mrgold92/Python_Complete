@@ -1,9 +1,9 @@
-from ModulosEscuela.Escuela import Alumno
 import sys
-sys.path.insert(0, '/05-Módulos-y-Paquetes/ModulosEscuela')
+sys.path.insert(0, '..\\PythonFinal\\Modulos')
 
 # Importamos un objeto o función de un módulo
 # Si queremos importar varios lo separamos por comas
+from GestionEscuela import Alumno
 
 alumno = Alumno("Ana", "Sánchez", "Sanz")
 

@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '..\\python\\Modulos')
+sys.path.insert(0, '..\\PythonFinal\\Modulos')
 
 # Importamos un objeto de un módulo y utilizamo AS para crear un alias
 from GestionEscuela import Alumno as FichaAlumno

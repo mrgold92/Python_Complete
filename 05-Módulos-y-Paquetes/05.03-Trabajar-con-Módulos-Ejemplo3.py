@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '..\\python\\Modulos')
+sys.path.insert(0, '..\\PythonFinal\\Modulos')
 
 # Importamos todas funciones y objeto de un módulo utilizando *
 from GestionEscuela import *
