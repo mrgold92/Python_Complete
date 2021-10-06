@@ -9,9 +9,9 @@ while(numero1 != numero2):
     numero2 = int(input("Dime un número: "))
     if(numero1 != numero2):
         if (numero1 < numero2):
-            print("No has acerptado, menos")
+            print("No has acertado, menos")
         else:
-            print("No has acerptado, más")
+            print("No has acertado, más")
     else:
         print(f"Has acertado, el número es {numero1}")
 
@@ -21,7 +21,7 @@ while(numero1 != numero2):
 while (True):
     numero2 = int(input("Dime un número: "))
     if(numero1 != numero2):
-        print("No has acerptado")
+        print("No has acertado")
     else:
         print(f"Has acertado, el número es {numero1}")
         break
@@ -32,7 +32,7 @@ while (True):
 while(numero1 == numero1):
     numero2 = int(input("Dime un número: "))
     if(numero1 != numero2):
-        print("No has acerptado")
+        print("No has acertado")
     else:
         print(f"Has acertado, el número es {numero1}")
         break
@@ -43,7 +43,7 @@ while(numero1 == numero1):
 while(numero1):
     numero2 = int(input("Dime un número: "))
     if(numero1 != numero2):
-        print("No has acerptado")
+        print("No has acertado")
     else:
         print(f"Has acertado, el número es {numero1}")
         break
@@ -55,7 +55,7 @@ acertado = False
 while (acertado == False):
     numero2 = int(input("Dime un número: "))
     if(numero1 != numero2):
-        print("No has acerptado")
+        print("No has acertado")
     else:
         print(f"Has acertado, el número es {numero1}")
         acertado = True
